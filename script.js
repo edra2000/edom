@@ -1,6 +1,6 @@
 async function fetchBinanceData() {
   try {
-    const res = await fetch('/api/binance');
+    const res = await fetch('https://api.binance.com/api/v3/ticker/24hr');
     const data = await res.json();
 
     const container = document.getElementById('cards-container');
