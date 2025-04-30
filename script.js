@@ -1,6 +1,6 @@
 async function fetchBinanceData() {
   try {
-    const response = await fetch('https://api.binance.com/api/v3/ticker/24hr', {
+    const response = await fetch('https://api2.binance.com/api/v3/ticker/24hr', {
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
